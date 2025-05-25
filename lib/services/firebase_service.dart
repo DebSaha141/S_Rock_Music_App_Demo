@@ -29,7 +29,6 @@ class FirebaseService {
     }
   }
 
-  // Method to initialize sample data (call this once)
   Future<void> initializeSampleData() async {
     final services = [
       ServiceModel(
@@ -37,6 +36,7 @@ class FirebaseService {
         title: 'Music Production',
         description: 'Custom Instrumentals & film scoring',
         iconPath: 'assets/images/music_icon.png',
+        backgroundImage: 'assets/images/image1.png',
         order: 1,
       ),
       ServiceModel(
@@ -44,6 +44,7 @@ class FirebaseService {
         title: 'Mixing & Mastering',
         description: 'Make your tracks Radio-ready',
         iconPath: 'assets/images/mixing_icon.png',
+        backgroundImage: 'assets/images/image2.png',
         order: 2,
       ),
       ServiceModel(
@@ -51,6 +52,7 @@ class FirebaseService {
         title: 'Lyrics Writing',
         description: 'Turn feelings into lyrics',
         iconPath: 'assets/images/lyrics_icon.png',
+        backgroundImage: 'assets/images/image3.png',
         order: 3,
       ),
       ServiceModel(
@@ -58,6 +60,7 @@ class FirebaseService {
         title: 'Vocals',
         description: 'Vocals that bring your lyrics to life',
         iconPath: 'assets/images/vocals_icon.png',
+        backgroundImage: 'assets/images/image4.png',
         order: 4,
       ),
     ];

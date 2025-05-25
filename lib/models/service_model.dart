@@ -3,6 +3,7 @@ class ServiceModel {
   final String title;
   final String description;
   final String iconPath;
+  final String backgroundImage;
   final int order;
 
   ServiceModel({
@@ -10,6 +11,7 @@ class ServiceModel {
     required this.title,
     required this.description,
     required this.iconPath,
+    required this.backgroundImage,
     required this.order,
   });
 
@@ -19,6 +21,7 @@ class ServiceModel {
       title: map['title'] ?? '',
       description: map['description'] ?? '',
       iconPath: map['iconPath'] ?? '',
+      backgroundImage: map['backgroundImage'] ?? '',
       order: map['order'] ?? 0,
     );
   }
@@ -28,7 +31,9 @@ class ServiceModel {
       'title': title,
       'description': description,
       'iconPath': iconPath,
+      'backgroundImage': backgroundImage,
       'order': order,
     };
-  }
+ 
+ }
 }
