@@ -2,7 +2,7 @@
 
 This repository contains the UI design for the **Home Page** of the **S Rock Music App**, built as part of a design and development task for the S Rock team.
 
-## 📸 Screenshots and Architecture
+## 📸 Screenshots
 
 <div align="center">
   <img src="https://res.cloudinary.com/dzabseimd/image/upload/v1748200581/1000106457-portrait_yipefh.png" width="300" alt="Home Screen"/>
@@ -21,7 +21,6 @@ This repository contains the UI design for the **Home Page** of the **S Rock Mus
 
 ## ✨ Features
 
-- **Modern UI Design**: Beautiful gradient interface with custom service cards
 - **Firebase Integration**: Real-time data fetching from Firestore database
 - **Clean Architecture**: MVVM pattern with proper separation of concerns
 - **Dependency Injection**: GetIt service locator for clean dependency management
@@ -300,7 +299,7 @@ dependencies:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DebSaha141/S_Rock_Music_App_Demo.git
    cd flutter-music-production-app
    ```
 
