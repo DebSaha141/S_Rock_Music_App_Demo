@@ -5,7 +5,7 @@ This repository contains the UI design for the **Home Page** of the **S Rock Mus
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://res.cloudinary.com/dzabseimd/image/upload/v1748200581/1000106457-portrait_yipefh.png" width="300" alt="Home Screen"/>
+  <img src="https://res.cloudinary.com/dzabseimd/image/upload/v1748283453/1000106653-portrait_na1kjp.png" width="300" alt="Home Screen"/>
 </div>
 
 
